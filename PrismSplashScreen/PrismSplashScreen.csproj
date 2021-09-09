@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Prism.Unity" Version="8.1.97" />
+    <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Module1\Module1.csproj" />
+    <ProjectReference Include="..\Module2\Module2.csproj" />
+    <ProjectReference Include="..\Module3\Module3.csproj" />
+    <ProjectReference Include="..\SplashModule\SplashModule.csproj" />
+  </ItemGroup>
+
+</Project>
